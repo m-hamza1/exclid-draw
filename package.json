@@ -1,0 +1,20 @@
+{
+  "name": "exclid-draw-monorepo",
+  "version": "1.0.0",
+  "description": "Collaborative real-time hand-drawn whiteboard built with Next.js, Fastify WebSockets, Rough.js, and MySQL",
+  "scripts": {
+    "dev:client": "node init && npm --prefix client run dev",
+    "dev:server": "node init && npm --prefix server run dev",
+    "build:client": "node init && npm --prefix client run build",
+    "build:server": "node init && npm --prefix server run build"
+  },
+  "keywords": [
+    "whiteboard",
+    "canvas",
+    "roughjs",
+    "excalidraw",
+    "realtime",
+    "nextjs",
+    "websockets"
+  ]
+}

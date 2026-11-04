@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400..700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&family=Fira+Code:wght@400;500;600&family=Caveat:wght@400..700&display=swap');
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Virgil';
+  src: url('/fonts/Virgil-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cascadia';
+  src: url('/fonts/CascadiaCode-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #18181b;
+  --font-claude: 'Newsreader', Georgia, serif;
+  --font-virgil: 'Virgil', 'Caveat', cursive;
+  --font-ui: 'Plus Jakarta Sans', 'Inter', system-ui, sans-serif;
+  --font-mono: 'Cascadia', 'Fira Code', monospace;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #ffffff;
+  color: #18181b;
+  font-family: var(--font-ui);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Professional font classes */
+.font-claude {
+  font-family: 'Newsreader', Georgia, serif;
+}
+
+.font-virgil {
+  font-family: 'Virgil', 'Caveat', cursive;
+}
+
+.font-sans-clean {
+  font-family: 'Plus Jakarta Sans', 'Inter', system-ui, sans-serif;
+}
+
+.font-code-mono {
+  font-family: 'Cascadia', 'Fira Code', monospace;
+}
